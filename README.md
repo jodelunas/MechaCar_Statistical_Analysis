@@ -29,7 +29,10 @@ Lot 1 has performed strongest of the three locations. With a p-value of one, we 
 
 <img width="482" alt="Screen Shot 2022-09-10 at 4 30 37 PM" src="https://user-images.githubusercontent.com/106006911/189503367-3eb2bb29-1968-4854-86a8-2b5c85476f32.png">
 
+Lot 2 has preformed well and the p-value is not low enough to reject the null hypothesis.
+
 <img width="481" alt="Screen Shot 2022-09-10 at 4 33 05 PM" src="https://user-images.githubusercontent.com/106006911/189503377-f7546c03-1fc2-4df4-bd79-74e676d9d42e.png">
 
+Lot 3 has not met company standard tolerance in manufacturing this part. The p-value is below .05, so we must reject the null hypothesis.
 
 ## Study Design: MechaCar vs Competition
