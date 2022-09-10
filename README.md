@@ -11,8 +11,12 @@ MPG<img width="511" alt="Screen Shot 2022-09-10 at 3 05 35 PM" src="https://user
 
 <img width="330" alt="Screen Shot 2022-09-10 at 3 54 30 PM" src="https://user-images.githubusercontent.com/106006911/189503214-326d94d8-f9b8-4c96-a12e-5e8f83daed3a.png">
 
+* When reviewed as a whole, variance is within 100 psi, as set by company policy.
+
 <img width="493" alt="Screen Shot 2022-09-10 at 4 09 24 PM" src="https://user-images.githubusercontent.com/106006911/189503262-b0d60107-56c2-4cfe-b41a-bd1036276327.png">
 
+* When reviewed by individual lots, lots one and two are well within the acceptable variance. Lot 3 is well out of range with a variance of 170+; thus the single greatest contributor to negative drag on overall performance.
+ 
 ## T-Tests on Suspension Coils
 
 <img width="404" alt="Screen Shot 2022-09-10 at 5 06 27 PM" src="https://user-images.githubusercontent.com/106006911/189503329-3203f163-d1b2-428c-a268-cd1c76de1f46.png">
