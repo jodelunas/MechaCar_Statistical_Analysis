@@ -14,4 +14,16 @@ mecha_lm <-lm(mpg ~ vehicle_length + vehicle_weight + spoiler_angle + ground_cle
 mecha_summary <-summary(lm(mpg ~ vehicle_length + vehicle_weight + spoiler_angle + ground_clearance + AWD, data=mecha_mpg))
 
 
+## Deliverable 2
 
+# 2. Import and read in the Suspension_Coil.csv file as a table.
+suspension_table <- read.csv(file='Suspension_Coil.csv',check.names=F,stringsAsFactors = F)
+
+# 3. Create a summary data frame
+total_summary <- suspension_table %>% summarize(Mean=mean(PSI), Median=median(PSI), Var=var(PSI), Std_Dev=sd(PSI), .groups = 'keep')
+                                         
+# 4. Write an RScript that creates a lot_summary dataframe 
+lot_summary <- suspension_table %>% group_by(Manufacturing_Lot) %>% summarize(Mean=mean(PSI),Median=median(PSI),Variance=var(PSI),SD=sd(PSI),.groups = 'keep')
+
+
+                                                
