@@ -1,5 +1,7 @@
 # MechaCar_Statistical_Analysis
 
+## Overview
+
 ## Linear Regression to Predict 
 
 MPG<img width="511" alt="Screen Shot 2022-09-10 at 3 05 35 PM" src="https://user-images.githubusercontent.com/106006911/189503153-5679e232-06de-42d5-b9ae-069f16d6f093.png">
@@ -21,3 +23,5 @@ MPG<img width="511" alt="Screen Shot 2022-09-10 at 3 05 35 PM" src="https://user
 
 <img width="481" alt="Screen Shot 2022-09-10 at 4 33 05 PM" src="https://user-images.githubusercontent.com/106006911/189503377-f7546c03-1fc2-4df4-bd79-74e676d9d42e.png">
 
+
+## Study Design: MechaCar vs Competition
