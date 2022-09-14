@@ -6,6 +6,7 @@
 
 MPG<img width="511" alt="Screen Shot 2022-09-10 at 3 05 35 PM" src="https://user-images.githubusercontent.com/106006911/189503153-5679e232-06de-42d5-b9ae-069f16d6f093.png">
 
+* This multi-linear regression is run on 6 data points. It shows that vehicle length and ground clearance have the most significant effect on MPG. Vehicle weight has a minor effect, as well. The slope is not zero, and the p-values are low, so we must reject the null-hypthesis. The relattionships between the variables and MPG is more than chance. With a r-squared result of better than 71%, this model will provide accurate predictions.
 
 ## Summary Statistics on Suspension Coils
 
