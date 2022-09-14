@@ -1,6 +1,7 @@
 # MechaCar_Statistical_Analysis
 
 ## Overview
+AutosRUS is reviewing statistical data points of the manufacturing process to find opportunities for higher consistency. Analysts have been tasked to review data points gathered from prototype vehicles to determine predictable MPG. We also need to provide summary statistics for suspension coil manufacturing in whole and by individual manufacturing locations. Then propose a study to futher compare MechaCar against competitive manufacturers.
 
 ## Linear Regression to Predict 
 
@@ -16,7 +17,7 @@ MPG<img width="511" alt="Screen Shot 2022-09-10 at 3 05 35 PM" src="https://user
 
 <img width="493" alt="Screen Shot 2022-09-10 at 4 09 24 PM" src="https://user-images.githubusercontent.com/106006911/189503262-b0d60107-56c2-4cfe-b41a-bd1036276327.png">
 
-* When reviewed by individual lots, lots one and two are well within the acceptable variance. Lot 3 is well out of range with a variance of 170+; thus the single greatest contributor to negative drag on overall performance.
+* When reviewed by individual lots, lots one and two are well within the acceptable variance. Lot 3 is well out of range with a variance of 170+; thus the single greatest contributor to negative drag on overall performance. It would be important for lots 2 and 3 to confir with lot 1 to decrease the variance in their suspension coils.
  
 ## T-Tests on Suspension Coils
 
@@ -37,3 +38,5 @@ MPG<img width="511" alt="Screen Shot 2022-09-10 at 3 05 35 PM" src="https://user
 * Lot 3 has not met company standard tolerance in manufacturing this part. The p-value is below .05, so we must reject the null hypothesis.
 
 ## Study Design: MechaCar vs Competition
+
+A metric that people are interested in when it comes to vehicles is safety ratings. We would need to collect safety rating data for a large number of comparable vehicles. Create a study that tests whether or not MechaCar is statistically different from a collection of comparable vehicals. The null hypothesis would be that there is no statistical differece between MechCar and comparable vehicles. The alternative hypothesis is that there is a statistical difference. The statistical test we can use is a one sample t-test where the population data will be all comparable vehicles. We will need multiple data points that affect the saftey rating on comparable vehicles, as well as for MechaCar.
